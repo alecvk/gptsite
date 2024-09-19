@@ -164,6 +164,29 @@
             animation: fadeInUp 1.5s ease-in-out;
         }
 
+        .header-content .learn-more {
+            margin-top: 30px; /* Adjust the value as needed for desired spacing */
+            display: inline-block; /* Ensures that margin-top applies correctly */
+            /* Optional: Additional styling for the Learn More button */
+            padding: 15px 30px;
+            background: var(--accent-color);
+            color: var(--primary-color);
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 50px;
+            transition: background 0.3s;
+        }
+
+        .header-content .learn-more:hover {
+            background: var(--highlight-color);
+            color: var(--primary-color);
+        }
+
+        /* Optional: If you want to adjust spacing between social icons and Learn More button */
+        .social-icons {
+            margin-bottom: 20px; /* Adds space below social icons */
+        }   
+
         .header-content a:hover {
             background: var(--highlight-color);
             color: var(--primary-color);
@@ -537,7 +560,17 @@
         <div class="header-content">
             <h1>Hi, I'm Alec</h1>
             <p>An Olympic Hopeful 470 Sailor &amp; UC Berkeley Software Engineer</p>
-            <a href="#about">Learn More</a>
+            
+            <!-- Social Icons -->
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/alec-van-kerckhove" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/alecvk" target="_blank"><i class="fab fa-github"></i></a>
+                <!-- Add more icons as desired -->
+            </div>
+            
+            <!-- Learn More Button with Added Class -->
+            <a href="#about" class="learn-more">Learn More</a>
+            
         </div>
     </header>
 
@@ -656,7 +689,7 @@
             <div class="card">
                 <h3>Computational Game Theory</h3>
                 <h4>EECS Research</h4>
-                <p>Jan 2023 - Present</p>
+                <p>Aug 2024 - Present</p>
                 <ul>
                     <li>Worked with GameCrafters and Professor Dan Garcia to explore strategic interactions in competitive environments.</li>
                     <li>Developed algorithms to simulate and analyze game-theoretic scenarios.</li>
@@ -695,7 +728,7 @@
             <a href="https://github.com/alecvk" target="_blank"><i class="fab fa-github"></i></a>
             <!-- Add more icons as desired -->
         </div>
-        <p>&copy; 2023 Alec Van Kerckhove. All rights reserved.</p>
+        <p>&copy; 2024 Alec Van Kerckhove. All rights reserved.</p>
     </section>
 
     <!-- Back to Top Button -->
